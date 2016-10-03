@@ -8,40 +8,91 @@ public class Main {
 
     public static void main(String[] args) {
 
-        JFrame frame = new JFrame("Calculator");
-        JPanel panel = new JPanel();
 
-        panel.setLayout(new FlowLayout());
+        JFrame frame1 = new JFrame("Calculator");
+        frame1.setBounds(300,200,300,330);
 
-        JLabel label = new JLabel("cal buttons");
+        frame1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame1.setLayout(null);
 
-        JButton button = new JButton();
+        final JTextField display = new JTextField();
+        display.setBounds(10,40,210,50);
+        frame1.add(display);
+        display.setFont(new java.awt.Font("Lucida Grande", 0, 19));
+        display.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
+        display.setText("0");
+        display.disable();
 
-        button.setText("1");
+        JButton clear = new JButton ("Clear");
+        clear.setBounds(220,40,70,50);
+        frame1.add(clear);
 
-        JButton button2 = new JButton();
+        JButton seven = new JButton ("7");
+        seven.setBounds(10,100,70,50);
+        frame1.add(seven);
 
-        button2.setText("2");
+        JButton eight = new JButton ("8");
+        eight.setBounds(80,100,70,50);
+        frame1.add(eight);
 
-        JButton button3 = new JButton();
+        JButton nine = new JButton ("9");
+        nine.setBounds(150,100,70,50);
+        frame1.add(nine);
 
-        button3.setText("3");
+        JButton plus = new JButton ("+");
+        plus.setBounds(220,100,70,50);
+        frame1.add(plus);
 
-        panel.add(label);
+        JButton four = new JButton ("4");
+        four.setBounds(10,150,70,50);
+        frame1.add(four);
 
-        panel.add(button);
-        panel.add(button2);
-        panel.add(button3);
+        JButton five = new JButton ("5");
+        five.setBounds(80,150,70,50);
+        frame1.add(five);
 
-        frame.add(panel);
+        JButton six = new JButton ("6");
+        six.setBounds(150,150,70,50);
+        frame1.add(six);
 
-        frame.setSize(600, 400);
+        JButton sub = new JButton ("-");
+        sub.setBounds(220,150,70,50);
+        frame1.add(sub);
 
-        frame.setLocationRelativeTo(null);
+        JButton one = new JButton ("1");
+        one.setBounds(10,200,70,50);
+        frame1.add(one);
 
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        JButton two = new JButton ("2");
+        two.setBounds(80,200,70,50);
+        frame1.add(two);
 
-        frame.setVisible(true);
+        JButton three = new JButton ("3");
+        three.setBounds(150,200,70,50);
+        frame1.add(three);
+
+        JButton mult = new JButton ("*");
+        mult.setBounds(220,200,70,50);
+        frame1.add(mult);
+
+        JButton zero = new JButton ("0");
+        zero.setBounds(10,250,70,50);
+        frame1.add(zero);
+
+        JButton decimal = new JButton (".");
+        decimal.setBounds(80,250,70,50);
+        frame1.add(decimal);
+
+
+        JButton equals = new JButton ("=");
+        equals.setBounds(150,250,70,50);
+        frame1.add(equals);
+
+        JButton div = new JButton ("/");
+        div.setBounds(220,250,70,50);
+        frame1.add(div);
+
+        frame1.setVisible(true);
 
 
     }
