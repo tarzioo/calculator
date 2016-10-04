@@ -314,7 +314,7 @@ class Operation {
             public void actionPerformed (ActionEvent ae){
                 if(oper.equals("=")){
                     display.setText("0");
-                    oper="";
+                    oper = "";
                 }
                 else if(display.getText().equals("0"))
                     display.setText("0");
@@ -354,22 +354,12 @@ class Operation {
                 display.setText("");
             }
         });
-
-        total.addActionListener(new ActionListener(){
-            public void actionPerformed (ActionEvent ae){
-                if(oper.equals("=")){
-                    display.setText("0.");
-                    oper="";
-                }
-                else
-                    display.setText(display.getText()+".");
-            }
-        });
+        
 
         clear.addActionListener(new ActionListener(){
             public void actionPerformed (ActionEvent ae){
-                oper="";  //AC
-                pre=""; //AC
+                oper="";  //clear
+                pre=""; //clear
                 display.setText("0");
 
             }
@@ -395,8 +385,8 @@ class Operation {
                         break;
                     case "=":
                         break;
-                }
-                oper="=";
+                    }
+                    oper = "=";
             }
         });
 

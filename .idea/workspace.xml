@@ -24,11 +24,10 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2925">
-              <caret line="45" column="54" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
+            <state relative-caret-position="156">
+              <caret line="356" column="8" selection-start-line="356" selection-start-column="8" selection-end-line="356" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1475556300000" expanded="true" signature="1333:1595" ph="..." />
               </folding>
             </state>
           </provider>
@@ -49,7 +48,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="327" />
+    <option name="x" value="530" />
     <option name="y" value="23" />
     <option name="width" value="906" />
     <option name="height" value="690" />
@@ -434,7 +433,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="327" y="23" width="906" height="690" extended-state="0" />
+    <frame x="530" y="23" width="906" height="690" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -485,11 +484,10 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2925">
-          <caret line="45" column="54" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
+        <state relative-caret-position="156">
+          <caret line="356" column="8" selection-start-line="356" selection-start-column="8" selection-end-line="356" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1475556300000" expanded="true" signature="1333:1595" ph="..." />
           </folding>
         </state>
       </provider>
