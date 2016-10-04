@@ -14,6 +14,7 @@ import java.awt.BorderLayout;
 import javax.swing.BorderFactory;
 import javax.swing.border.Border;
 
+
 class Main {
 
     public static void main(String[] args) {
@@ -25,6 +26,8 @@ class Main {
 class Operation {
     String oper = "";
     String pre = "";
+
+
 
 
     public void calc()
@@ -42,7 +45,7 @@ class Operation {
         display.setBounds(10,40,210,50);
         display.setForeground(Color.red);
         frame1.add(display);
-        display.setFont(new java.awt.Font("Lucida Grande", 0, 19));
+        display.setFont(new java.awt.Font("courier", 0, 30));
         display.setDisabledTextColor(Color.decode("#4DB7BE"));
         display.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
         display.setText("0");
@@ -326,35 +329,35 @@ class Operation {
         plus.addActionListener(new ActionListener(){
             public void actionPerformed (ActionEvent ae){
                 oper="+";
-                pre=display.getText();
+                pre+=display.getText();
                 display.setText("");
             }
         });
 
         sub.addActionListener(new ActionListener(){
             public void actionPerformed (ActionEvent ae){
-                oper="-";
-                pre=display.getText();
+                oper = "-";
+                pre = display.getText();
                 display.setText("");
             }
         });
 
         mult.addActionListener(new ActionListener(){
             public void actionPerformed (ActionEvent ae){
-                oper="*";
-                pre=display.getText();
+                oper = "*";
+                pre = display.getText();
                 display.setText("");
             }
         });
 
         div.addActionListener(new ActionListener(){
             public void actionPerformed (ActionEvent ae){
-                oper="/";
-                pre=display.getText();
+                oper = "/";
+                pre = display.getText();
                 display.setText("");
             }
         });
-        
+
 
         clear.addActionListener(new ActionListener(){
             public void actionPerformed (ActionEvent ae){
